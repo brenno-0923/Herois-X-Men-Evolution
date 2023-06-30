@@ -1,6 +1,10 @@
-*{
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
+body{
+    background-image:url("img-herois/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFEF02;
+    font-family: 'Belanosima', sans-serif;
+font-family: 'Chakra Petch', sans-serif;
 }
 .logo{
     position: absolute;
@@ -11,7 +15,6 @@
 .quadrado1 {
   width: 200px;
   height: 200px;
-  background-color: red;
   position: absolute;
   top: 30%;
   right: 80%;
@@ -19,7 +22,6 @@
 .quadrado2{
   width: 200px;
   height: 200px;
-  background-color: rgb(7, 253, 27);
   position: absolute;
   top: 30%;
   right: 65%;
@@ -28,7 +30,6 @@
 .quadrado3{
   width: 200px;
   height: 200px;
-  background-color: rgb(88, 0, 252);
   position: absolute;
   top: 30%;
   right: 50%;
@@ -37,7 +38,6 @@
 .quadrado4{
   width: 200px;
   height: 200px;
-  background-color: rgb(253, 7, 151);
   position: absolute;
   top: 30%;
   right: 35%;
@@ -46,46 +46,42 @@
 .quadrado5{
   width: 200px;
   height: 200px;
-  background-color: rgb(216, 253, 7);
   position: absolute;
-  top: 65%;
+  top: 70%;
   right: 80%;
 
 }
 .quadrado6{
   width: 200px;
   height: 200px;
-  background-color: rgb(7, 204, 253);
   position: absolute;
-  top: 65%;
+  top: 70%;
   right: 35%;
 
 }
 .quadrado7{
   width: 200px;
   height: 200px;
-  background-color: rgb(253, 105, 7);
   position: absolute;
-  top: 65%;
+  top: 70%;
   right: 50%;
 
 }
 .quadrado8{
   width: 200px;
   height: 200px;
-  background-color: rgb(0, 0, 0);
   position: absolute;
-  top: 65%;
+  top: 70%;
   right: 65%;
 
 }
 .heroi{
-  width: 300px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   background-color: rgb(0, 0, 0);
   position: absolute;
   top: 40%;
   right: 10%;
-  color: rgb(255, 255, 255);
+  color: #FFEF02;
   display: none;
 }
