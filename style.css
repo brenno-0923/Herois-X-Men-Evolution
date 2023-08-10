@@ -85,3 +85,9 @@ font-family: 'Chakra Petch', sans-serif;
   color: #FFEF02;
   display: none;
 }
+.assinatura{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 1000px;
+  left: 900px;
+}
